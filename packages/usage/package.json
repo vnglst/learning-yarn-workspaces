@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "^16.6.0",
     "cross-env": "5.0.5",
+    "vnglst-alpha": "2.0.0",
     "vnglst-gamma": "1.0.0",
     "vnglst-delta": "1.0.0"
   }

@@ -97,6 +97,13 @@ shebang-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
 
+vnglst-alpha@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/vnglst-alpha/-/vnglst-alpha-2.0.0.tgz#3345ed32c9d2bc9478a584cd7bb707273b859d8d"
+  integrity sha512-xUpZlLYcRlq56yrtPe1TG/65WLpXNuJXbsSWUk+IRc0AbKEuMHNb4hvOoCiKqfRJhr+L/myE4bUqnjNoV2jfhQ==
+  dependencies:
+    react "^16.6.0"
+
 which@^1.2.9:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/which/-/which-1.3.1.tgz#a45043d54f5805316da8d62f9f50918d3da70b0a"

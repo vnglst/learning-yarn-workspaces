@@ -5,9 +5,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "workspaces": [
-    "packages/delta",
-    "packages/gamma",
-    "packages/usage"
+    "packages/*"
   ],
   "scripts": {
     "start": "node ./packages/usage"
