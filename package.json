@@ -8,7 +8,8 @@
     "packages/*"
   ],
   "scripts": {
-    "start": "node ./packages/usage"
+    "start-demo": "node ./packages/demo",
+    "start-root": "node ./packages/demo"
   },
   "keywords": [],
   "author": "",
