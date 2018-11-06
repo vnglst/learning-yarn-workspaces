@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "react": "^16.6.0",
     "vnglst-delta": "^1.0.1",
     "vnglst-gamma": "^1.0.1"
   },
