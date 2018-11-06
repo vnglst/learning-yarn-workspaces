@@ -1,6 +1,6 @@
 {
   "name": "vnglst-delta",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.6.0",
-    "cross-env": "5.0.5"
+    "cross-env": "5.0.5",
+    "react": "^16.6.0"
   }
 }
