@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "start-demo": "node ./packages/demo",
-    "start-root": "node ./packages/demo"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
