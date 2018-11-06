@@ -1,0 +1,18 @@
+{
+  "name": "learning-yarn-workspaces",
+  "private": true,
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": [
+    "packages/delta",
+    "packages/gamma",
+    "packages/usage"
+  ],
+  "scripts": {
+    "start": "node ./packages/usage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
