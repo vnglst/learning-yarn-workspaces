@@ -1,1 +1,1 @@
-module.exports = 'gamma-1.0.0'
+module.exports = 'gamma-2.0.0'
