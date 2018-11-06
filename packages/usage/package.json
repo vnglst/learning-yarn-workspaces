@@ -1,6 +1,6 @@
 {
   "name": "vnglst-yarn-demo",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,6 @@
     "cross-env": "5.0.5",
     "react": "^16.6.0",
     "vnglst-delta": "^1.0.1",
-    "vnglst-gamma": "^1.0.1"
+    "vnglst-gamma": "^2.0.0"
   }
 }
