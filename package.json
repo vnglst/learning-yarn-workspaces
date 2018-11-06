@@ -10,7 +10,7 @@
   "scripts": {
     "start-demo": "node ./packages/demo",
     "start": "node index.js",
-    "lerna-publish": "yarn prepare; lerna publish",
+    "lerna-publish": "yarn lerna-prepare; lerna publish",
     "lerna-prepare": "lerna exec -- babel index.js -d dist"
   },
   "keywords": [],
