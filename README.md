@@ -24,3 +24,5 @@ Example project for doing experiments with Yarn Workspace and Lerna.
 
 - How to handle downgrading to previous version after doing a lerna publish?
   - Idea: first run `lerna version`, review changes and then `lerna publish`? Could this be done on master or safer on feature branch?
+
+Example project with 'independent' versioning: https://github.com/primer/primer/blob/master/package.json
