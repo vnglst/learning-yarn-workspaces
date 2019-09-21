@@ -1,6 +1,6 @@
 {
   "name": "vnglst-yarn-demo",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "",
   "main": "dist/index.js",
   "files": [
@@ -16,8 +16,8 @@
     "babel-cli": "^6.26.0",
     "cross-env": "5.0.5",
     "react": "^16.6.0",
-    "vnglst-delta": "^1.1.2",
-    "vnglst-gamma": "^2.1.2"
+    "vnglst-delta": "^1.2.0",
+    "vnglst-gamma": "^2.2.0"
   },
   "gitHead": "e490a65f783f0970f9f06993a38f784250682ceb"
 }
