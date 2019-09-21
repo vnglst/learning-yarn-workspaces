@@ -6,6 +6,13 @@
       "message": "chore(release): publish packages"
     }
   },
+  "ignoreChanges": [
+    "**/__tests__/**",
+    "**/test/**",
+    "**/*.test.js",
+    "**/*.mock.js",
+    "**/*.md"
+  ],
   "packages": ["packages/*"],
   "version": "independent",
   "npmClient": "npm",
