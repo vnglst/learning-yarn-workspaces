@@ -1,1 +1,5 @@
-module.exports = 'delta-1.1.0'
+'use strict';
+
+var src = "delta-1.1.0";
+
+module.exports = src;

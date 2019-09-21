@@ -2,7 +2,7 @@
   "name": "vnglst-gamma",
   "version": "2.1.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
