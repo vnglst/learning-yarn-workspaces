@@ -18,5 +18,6 @@
     "react": "^16.6.0",
     "vnglst-delta": "^1.1.2",
     "vnglst-gamma": "^2.1.2"
-  }
+  },
+  "gitHead": "e490a65f783f0970f9f06993a38f784250682ceb"
 }
