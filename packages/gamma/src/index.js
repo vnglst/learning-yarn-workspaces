@@ -1,1 +1,3 @@
-module.exports = "gamma-2.0.1";
+const { version } = require("../package.json");
+
+export default `gamma ${version}`;

@@ -1,6 +1,6 @@
 {
-  "name": "vnglst-delta",
-  "version": "1.2.3",
+  "name": "vnglst-some-app",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "files": [
@@ -12,5 +12,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "vnglst-delta": "^1.1.0",
+    "vnglst-gamma": "^1.0.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "lodash": "*"
+  },
   "gitHead": "e490a65f783f0970f9f06993a38f784250682ceb"
 }

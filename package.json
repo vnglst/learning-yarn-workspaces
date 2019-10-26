@@ -3,30 +3,39 @@
   "private": true,
   "description": "",
   "version": "1.0.0",
-  "main": "index.js",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "compile": "babel packages/*/src --out-dir ../dist --relative",
-    "compile:watch": "yarn compile --watch",
-    "clean": "git clean -fdx packages",
-    "start": "node index.js",
-    "prerelease": "yarn clean && yarn compile",
-    "release": "lerna publish"
+    "webpack": "webpack --config webpack.config.js",
+    "webpack:watch": "yarn webpack --watch",
+    "webpack:analyze": "yarn run --silent webpack --profile --json > stats.json && yarn webpack-bundle-analyzer stats.json",
+    "babel": "babel packages/*/src --out-dir ../dist --relative",
+    "babel:watch": "yarn babel --watch",
+    "clean": "rm -rf packages/*/dist",
+    "start": "browser-sync ./public",
+    "prerelease": "yarn clean && yarn babel",
+    "release": "lerna publish",
+    "postinstall": "yarn clean && yarn babel"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.6.0",
+    "lodash": "^4.17.15",
+    "react": "^16.11.0",
     "vnglst-delta": "^1.1.0",
-    "vnglst-gamma": "^1.0.1"
+    "vnglst-gamma": "^1.0.1",
+    "vnglst-yarn-demo": "^2.2.3",
+    "vnglst-some-app": "^1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
-    "lerna": "^3.4.3"
+    "lerna": "^3.18.3",
+    "webpack": "^4.41.2",
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-cli": "^3.3.9"
   }
 }

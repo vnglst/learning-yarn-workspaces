@@ -12,10 +12,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "babel-cli": "^6.26.0",
-    "cross-env": "5.0.5",
-    "react": "^16.6.0"
-  },
   "gitHead": "e490a65f783f0970f9f06993a38f784250682ceb"
 }
