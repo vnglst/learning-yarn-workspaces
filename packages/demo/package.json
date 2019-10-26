@@ -1,6 +1,6 @@
 {
   "name": "vnglst-yarn-demo",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "",
   "main": "dist/index.js",
   "files": [
@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "vnglst-delta": "^2.0.0",
-    "vnglst-gamma": "^3.0.0"
+    "vnglst-gamma": "^3.0.1"
   },
   "peerDependencies": {
     "react": "*"
