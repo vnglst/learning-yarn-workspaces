@@ -4,6 +4,6 @@ import delta from "vnglst-delta";
 
 const { version } = require("../package.json");
 
-console.log("hello from some app version", version);
+console.log("hello from some app version NEW MAJOR", version);
 
 export default `Some app: ${version}. React ${React.version}. Gamma: ${gamma}. Delta: ${delta}`;
