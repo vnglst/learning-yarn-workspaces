@@ -1,2 +1,5 @@
-console.log("something has changed here");
-module.exports = "delta-1.1.3";
+const { version } = require("../package.json");
+
+console.log("hello from delta version", version);
+
+export default `delta ${version}`;
