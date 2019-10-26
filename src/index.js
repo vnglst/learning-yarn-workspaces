@@ -7,19 +7,10 @@ import join from "lodash/join";
 function component() {
   const element = document.createElement("p");
 
+  console.log(demo);
+
   element.innerHTML = join(
-    [
-      "Hello",
-      "webpack",
-      "gamma",
-      gamma,
-      "delta",
-      delta,
-      "React",
-      React.version,
-      "demo",
-      demo
-    ],
+    ["Hello", "webpack", gamma, delta, "React", React.version, demo],
     " "
   );
 
