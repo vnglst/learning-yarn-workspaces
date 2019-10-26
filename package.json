@@ -27,7 +27,7 @@
     "vnglst-delta": "^1.1.0",
     "vnglst-gamma": "^1.0.1",
     "vnglst-yarn-demo": "^2.2.3",
-    "vnglst-some-app": "^1.0.0"
+    "vnglst-some-app": "^2.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
