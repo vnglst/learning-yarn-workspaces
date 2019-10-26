@@ -5,4 +5,4 @@ import { version } from "../package.json";
 
 console.log("hello from demo version", version);
 
-export default `Demo! React ${React.version} ${gamma} ${delta}`;
+export default `Demo: React ${React.version} ${gamma} ${delta}`;

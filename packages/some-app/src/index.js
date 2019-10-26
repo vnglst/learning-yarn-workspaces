@@ -6,4 +6,4 @@ const { version } = require("../package.json");
 
 console.log("hello from some app version", version);
 
-export default `some app ${version}. React ${React.version}. Gamma: ${gamma}. Delta: ${delta}`;
+export default `Some app: ${version}. React ${React.version}. Gamma: ${gamma}. Delta: ${delta}`;

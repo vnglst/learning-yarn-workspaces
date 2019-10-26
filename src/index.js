@@ -10,8 +10,8 @@ function component() {
   console.log(demo);
 
   element.innerHTML = join(
-    ["Hello", "webpack", gamma, delta, "React", React.version, demo],
-    " "
+    ["Hello webpack", gamma, delta, "React: " + React.version, demo],
+    "<br />"
   );
 
   return element;
