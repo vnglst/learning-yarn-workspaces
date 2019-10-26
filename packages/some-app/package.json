@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "vnglst-delta": "^3.0.0",
-    "vnglst-gamma": "^1.0.1"
+    "vnglst-gamma": "^4.0.0"
   },
   "peerDependencies": {
     "lodash": "*",

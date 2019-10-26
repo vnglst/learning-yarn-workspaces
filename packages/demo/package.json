@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vnglst-delta": "^3.0.0",
-    "vnglst-gamma": "^4.0.0"
+    "vnglst-delta": "^2.0.0",
+    "vnglst-gamma": "^3.0.0"
   },
   "peerDependencies": {
     "react": "*"

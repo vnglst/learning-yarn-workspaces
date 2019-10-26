@@ -26,8 +26,8 @@
     "react": "^16.11.0",
     "vnglst-delta": "^2.0.0",
     "vnglst-gamma": "^3.0.0",
-    "vnglst-yarn-demo": "^3.0.0",
-    "vnglst-some-app": "^2.0.0"
+    "vnglst-yarn-demo": "^4.0.0",
+    "vnglst-some-app": "^3.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
