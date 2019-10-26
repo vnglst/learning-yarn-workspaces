@@ -1,6 +1,6 @@
 {
   "name": "vnglst-some-app",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "",
   "main": "dist/index.js",
   "files": [
@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vnglst-delta": "^2.0.1",
+    "vnglst-delta": "^3.0.0",
     "vnglst-gamma": "^1.0.1"
   },
   "peerDependencies": {
