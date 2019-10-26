@@ -8,24 +8,25 @@
     "packages/*"
   ],
   "scripts": {
-    "watch": "pectin -w",
-    "start": "node index.js",
+    "compile": "babel packages/*/src --out-dir ../dist --relative",
+    "compile:watch": "yarn compile --watch",
     "clean": "git clean -fdx packages",
-    "prerelease": "npm run clean && pectin",
+    "start": "node index.js",
+    "prerelease": "yarn clean && yarn compile",
     "release": "lerna publish"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/preset-env": "^7.6.0",
     "react": "^16.6.0",
     "vnglst-delta": "^1.1.0",
     "vnglst-gamma": "^1.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "lerna": "^3.4.3",
-    "pectin": "^3.5.4"
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "lerna": "^3.4.3"
   }
 }
